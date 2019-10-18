@@ -42,6 +42,7 @@ while index < source_array.length do
   puts source_array[index]
   index += 1
 end
+source_array
 end
 
 #
