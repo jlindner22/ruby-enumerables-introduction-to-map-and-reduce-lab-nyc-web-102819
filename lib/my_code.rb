@@ -40,7 +40,7 @@ def reduce_to_total(source_array, starting_point)
 count = 0
 source_array = source_array(starting_point)
 while count < source_array.length do
-source_array[count] = source_array[count] + source_array
+source_array[count] = source_array[count] + source_array[starting_point]
 print source_array[count]
   count += 1
 end 
@@ -56,15 +56,6 @@ count += 1
 end
 source_array
 end
-
-# def reduce_to_total(source_array, starting_point)
-#   source_array = 0
-#   source_array.each do |starting_point|
-#     source_array += starting_point
-#   end
-#   return source_array 
-# end
-
 
 def reduce_to_all_true(source_array)
   i = 0 
