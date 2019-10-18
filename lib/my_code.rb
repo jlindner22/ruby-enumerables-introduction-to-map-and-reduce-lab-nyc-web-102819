@@ -37,25 +37,14 @@ end
 
 #need to grab value from array and add to the current total
 def reduce_to_total(source_array, starting_point)
-count = 0
-while count < source_array.length do
-source_array = source_array.sum(starting_point) + count
-print source_array[count]
-  count += 1
-end 
-return source_array
+index = 0 
+while index < source_array.length do
+  puts source_array[index]
+  index += 1
+end
 end
 
-# count = 0
-# aggregate = starting_point + 
-# while count < source_array.length do
-# source_array[count] = source_array[count] * negative
-# source_array[count]
-# count += 1
-# end
-# source_array
-# end
-
+#
 def reduce_to_all_true(source_array)
   i = 0 
   while i < source_array.length do 
