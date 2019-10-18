@@ -36,23 +36,23 @@ source_array
 end
 
 #need to grab value from array and add to the current total
-# def reduce_to_total(source_array, starting_point)
-# count = 0
-# source_array = source_array(starting_point)
-# while count < source_array.length do
-# source_array[count] = source_array[count] + source_array
-# print source_array[count]
-#   count += 1
-# end 
-# source_array
-# end
+def reduce_to_total(source_array, starting_point)
+count = 0
+source_array = source_array(starting_point)
+while count < source_array.length do
+source_array[count] = source_array[count] + source_array
+print source_array[count]
+  count += 1
+end 
+return source_array
+end
 
 # def reduce_to_total(source_array, starting_point)
 #   source_array = 0
 #   source_array.each do |starting_point|
 #     source_array += starting_point
 #   end
-#   source_array 
+#   return source_array 
 # end
 
 
