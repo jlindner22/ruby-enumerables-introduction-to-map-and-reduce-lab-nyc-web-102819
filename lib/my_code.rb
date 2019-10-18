@@ -36,7 +36,7 @@ source_array
 end
 
 #need to grab value from array and add to the current total
-def reduce_to_total(source_array, starting_point)
+def reduce_to_total(source_array, starting_point = 0)
 index = 0 
 output = starting_point
 while index < source_array.length do
