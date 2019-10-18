@@ -47,15 +47,15 @@ end
 return source_array
 end
 
-count = 0
-aggregate = starting_point + 
-while count < source_array.length do
-source_array[count] = source_array[count] * negative
-source_array[count]
-count += 1
-end
-source_array
-end
+# count = 0
+# aggregate = starting_point + 
+# while count < source_array.length do
+# source_array[count] = source_array[count] * negative
+# source_array[count]
+# count += 1
+# end
+# source_array
+# end
 
 def reduce_to_all_true(source_array)
   i = 0 
